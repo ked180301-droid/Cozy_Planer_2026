@@ -385,7 +385,7 @@ select:focus{outline:none;border-color:var(--pri);box-shadow:0 0 0 3px var(--pri
   <div class="kpi-grid fi">
     <div class="kpi"><div class="klbl">Заработано</div><div class="kval" id="d-earn" style="color:var(--pri)">0 ₽</div><div class="ksub">цель 100 000 ₽</div></div>
     <div class="kpi"><div class="klbl">Задач сделано</div><div class="kval" id="d-tasks" style="color:var(--ok)">0</div><div class="ksub">норма 360/день</div></div>
-    <div class="kpi"><div class="klbl">Тренировки</div><div class="kval" id="d-wo" style="color:var(--warn)">0 / ?</div><div class="ksub">вт 14:00 и чт 12:00</div></div>
+    <div class="kpi"><div class="klbl">Тренировки</div><div class="kval" id="d-wo" style="color:var(--warn)">0 / ?</div><div class="ksub"></div></div>
     <div class="kpi"><div class="klbl">Курсовая</div><div class="kval" id="d-thesis" style="color:var(--txt)">0 / 7</div><div class="ksub">этапов готово</div></div>
   </div>
 
@@ -431,9 +431,9 @@ select:focus{outline:none;border-color:var(--pri);box-shadow:0 0 0 3px var(--pri
   <h1 class="ptitle">Тренировки</h1>
   <p class="psub">Кликай на любой день месяца, чтобы добавить зал, бег или скалодром</p>
   
-  <div class="ph-slot tall" style="margin-bottom:1rem; border:1.5px dashed var(--bdr); background:var(--surf2); border-radius:18px; min-height:120px; display:flex; align-items:center; justify-content:center; color:var(--faint); font-size:var(--xs); text-align:center;">
-    Здесь можно вставить фото с пробежки или скалодрома
-  </div>
+ <div class="ph-slot tall img-slot" id="sport-photo-1" onclick="pickImg('sport-photo-1', event)" style="margin-bottom:1rem; border:1.5px dashed var(--bdr); background:var(--surf2); border-radius:18px; min-height:120px; display:flex; align-items:center; justify-content:center; color:var(--faint); font-size:var(--xs); text-align:center; overflow:hidden; cursor:pointer;">
+  Здесь можно вставить фото с пробежки или скалодрома
+</div>
 
   <div class="kpi-grid">
     <div class="kpi kok"><div class="klbl">Всего</div><div class="kval" id="wo-total">0</div><div class="ksub">за июль</div></div>
@@ -471,8 +471,8 @@ select:focus{outline:none;border-color:var(--pri);box-shadow:0 0 0 3px var(--pri
   <h1 class="ptitle">Курсовая работа</h1>
   <p class="psub">Дедлайн через 4 месяца · мягкий темп: маленькие шаги без перегруза</p>
   
-  <div class="ph-slot tall" style="margin-bottom:1rem; border:1.5px dashed var(--bdr); background:var(--surf2); border-radius:18px; min-height:120px; display:flex; align-items:center; justify-content:center; color:var(--faint); font-size:var(--xs); text-align:center;">
-    Здесь можно вставить эстетичную картинку для вдохновения
+ <div class="ph-slot tall img-slot" id="sport-photo-1" onclick="pickImg('sport-photo-1', event)" style="margin-bottom:1rem; border:1.5px dashed var(--bdr); background:var(--surf2); border-radius:18px; min-height:120px; display:flex; align-items:center; justify-content:center; color:var(--faint); font-size:var(--xs); text-align:center; overflow:hidden; cursor:pointer;">
+ Здесь можно вставить эстетичную картинку для вдохновения
   </div>
 
   <div class="kpi-grid">
